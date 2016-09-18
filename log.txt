@@ -1,0 +1,611 @@
+
+
+
+zheng.maohua@DESKTOP-QHMLIGC MINGW32 /d/AUROCHS/PHP/framework (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+zheng.maohua@DESKTOP-QHMLIGC MINGW32 /d/AUROCHS/PHP/framework (master)
+$ git branch
+* master
+
+zheng.maohua@DESKTOP-QHMLIGC MINGW32 /d/AUROCHS/PHP/framework (master)
+$ git log
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+:...skipping...
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:42:43 2016 +0800
+
+    Update metadata badges
+
+commit d4561fe438978bdb73d073a5ac9b0e4d345a9e44
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 15:30:49 2016 +0800
+
+    Update CONTRIBUTING.md
+
+    修正 单元测试文件 连接
+
+commit 4115408538b566d795d621385f9c293f026fb3f4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Thu Sep 15 12:58:29 2016 +0800
+
+    注释调整
+
+commit 8974a5d12027796b18ffd5e2eeeb38ece57069c2
+Author: thinkphp <thinkphp@qq.com>
+Date:   Wed Sep 14 17:30:16 2016 +0800
+
+    改进View类的assign方法 去掉多余代码
+
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:42:43 2016 +0800
+
+    Update metadata badges
+
+commit d4561fe438978bdb73d073a5ac9b0e4d345a9e44
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 15:30:49 2016 +0800
+
+    Update CONTRIBUTING.md
+
+    修正 单元测试文件 连接
+
+commit 4115408538b566d795d621385f9c293f026fb3f4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Thu Sep 15 12:58:29 2016 +0800
+
+    注释调整
+
+commit 8974a5d12027796b18ffd5e2eeeb38ece57069c2
+Author: thinkphp <thinkphp@qq.com>
+Date:   Wed Sep 14 17:30:16 2016 +0800
+
+    改进View类的assign方法 去掉多余代码
+
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:42:43 2016 +0800
+
+    Update metadata badges
+
+commit d4561fe438978bdb73d073a5ac9b0e4d345a9e44
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 15:30:49 2016 +0800
+
+    Update CONTRIBUTING.md
+
+    修正 单元测试文件 连接
+
+commit 4115408538b566d795d621385f9c293f026fb3f4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Thu Sep 15 12:58:29 2016 +0800
+:
+commit 09598e67b3e7c6100e1148153f1d43401bea547b
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:43:10 2016 +0800
+
+    cache助手函数支持判断缓存是否有效
+
+commit 91cfa8ba4c8fc83b69ee87777d03cbf090dc969c
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:22:09 2016 +0800
+
+    注释修正
+
+commit 93ea07819ceb624c16cbd00dc86a575b3fd50859
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 12:17:23 2016 +0800
+
+    修正一处注释错误
+
+commit f75d1c5d80c1af5313d604e68cd948fdfac0e205
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sun Sep 18 11:39:37 2016 +0800
+
+    修正 模板引擎驱动类的config方法
+
+commit 2aa3adb2a8a496f423cd3c3a0abd7f30e24abb52
+Merge: e562cb4 9a0df4e
+Author: ThinkPHP <thinkphp@qq.com>
+Date:   Sat Sep 17 20:36:26 2016 +0800
+
+    Merge pull request #290 from youyoushanyu/master
+
+    解决Model类db()方法在$this->field=true时重复被调用的而引发的问题
+
+commit e562cb4080158c0cd76e07f7275a828cb72b4f7f
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 11:27:35 2016 +0800
+
+    改进model类save方法对字段的判断
+
+commit 9032818794ed00b52092443c3c862577cc2672e4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Sat Sep 17 00:05:26 2016 +0800
+
+    修正一个查询条件多个条件的时候的参数绑定BUG
+
+commit 9a0df4ef0408b66d1d818ad3b10df03ddf6e254b
+Author: shanyu <wf9100@qq.com>
+Date:   Fri Sep 16 16:19:40 2016 +0800
+
+    修复在配置Model属性field=true情况下,通过__call调用db()引发的BUG
+
+commit 8ff2e4fe5bdf955f5fd4206ef066ee50d667577f
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:52:22 2016 +0800
+
+    Remove GitHub download metadata badges
+
+commit f800f1bcf709094963a1f56417833aafab027e5b
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 19:42:43 2016 +0800
+
+    Update metadata badges
+
+commit d4561fe438978bdb73d073a5ac9b0e4d345a9e44
+Author: Chino Chang <me@7in0.me>
+Date:   Thu Sep 15 15:30:49 2016 +0800
+
+    Update CONTRIBUTING.md
+
+    修正 单元测试文件 连接
+
+commit 4115408538b566d795d621385f9c293f026fb3f4
+Author: thinkphp <thinkphp@qq.com>
+Date:   Thu Sep 15 12:58:29 2016 +0800
+
+    注释调整
+
+commit 8974a5d12027796b18ffd5e2eeeb38ece57069c2
+Author: thinkphp <thinkphp@qq.com>
+Date:   Wed Sep 14 17:30:16 2016 +0800
+
+:
+
+
